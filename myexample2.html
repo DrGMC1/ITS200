@@ -1,0 +1,41 @@
+<html>
+   <head><title>Using the var Keyword</title>
+		</head>
+
+  <body bgcolor="silver">
+   		
+		<script type = "text/javascript">
+  <!--
+    var item1Price, multiplier;
+    var amountLeft, item2Price;
+    var startAmount;
+   
+ item1Price = prompt("Please enter the cost of the first item: ");
+ item1Price = parseFloat(item1Price);
+ multiplier = prompt("Please enter the multiplier: ");
+ multiplier = parseFloat(multiplier);
+ amountLeft = prompt("Please enter the amount left: ");
+ amountLeft = parseFloat(amountLeft);
+
+    item2Price = multiplier * item1Price;
+    startAmount = item1Price + item2Price +                    
+                  amountLeft;
+
+  document.write("The cost of item 1: $");
+  document.write(item1Price);
+  document.write("<br />");
+  document.write("The multiplier: ");
+  document.write(multiplier);
+  document.write("<br />");
+  document.write("The money we had left: $");
+  document.write(amountLeft);
+  document.write("<br />");
+  document.write("The starting amount was: $");
+  document.write(startAmount);
+ //-->
+</script>
+
+
+	</body>
+
+</html>
